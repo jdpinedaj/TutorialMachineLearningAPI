@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+fastapi = "*"
+joblib = "*"
+uvicorn = {extras = ["standart"], version = "*"}
+
+[dev-packages]
+ipykernel = "*"
+yapf = "*"
+
+[requires]
+python_version = "3.8"
